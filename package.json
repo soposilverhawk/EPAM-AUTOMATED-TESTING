@@ -1,0 +1,28 @@
+{
+  "name": "epam-automated-testing",
+  "version": "1.0.0",
+  "description": "Javascript automation testing homework project covering Unit, UI and API testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soposilverhawk/EPAM-AUTOMATED-TESTING.git"
+  },
+  "keywords": [
+    "epam",
+    "javascript",
+    "automation-testing",
+    "unit-testing",
+    "ui-testing",
+    "api-testing"
+  ],
+  "author": "Sopo Bichinashvili",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/soposilverhawk/EPAM-AUTOMATED-TESTING/issues"
+  },
+  "homepage": "https://github.com/soposilverhawk/EPAM-AUTOMATED-TESTING#readme"
+}
