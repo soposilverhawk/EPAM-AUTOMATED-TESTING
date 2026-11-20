@@ -4,7 +4,9 @@
   "description": "Javascript automation testing homework project covering Unit, UI and API testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,14 @@
   "bugs": {
     "url": "https://github.com/soposilverhawk/EPAM-AUTOMATED-TESTING/issues"
   },
-  "homepage": "https://github.com/soposilverhawk/EPAM-AUTOMATED-TESTING#readme"
+  "homepage": "https://github.com/soposilverhawk/EPAM-AUTOMATED-TESTING#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  },
+  "dependencies": {
+    "c8": "^12.0.0",
+    "chai": "^4.5.0",
+    "mocha": "^12.0.3",
+    "mochawesome": "^8.1.1"
+  }
 }
