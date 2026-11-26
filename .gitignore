@@ -9,6 +9,7 @@ node_modules/
 # Test results and reports
 coverage/
 mochawesome-report/
+screenshots/
 
 # Logs
 logs/
